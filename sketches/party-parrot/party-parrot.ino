@@ -1,4 +1,5 @@
 // Generated from catalog.json
+// party-parrot: Party parrot
 #include <Keyboard.h>
 
 void setup() {

@@ -1,4 +1,5 @@
 // Generated from catalog.json
+// foot-btop: Foot then btop
 #include <Keyboard.h>
 
 void setup() {

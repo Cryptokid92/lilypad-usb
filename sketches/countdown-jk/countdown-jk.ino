@@ -1,4 +1,5 @@
 // Generated from catalog.json
+// countdown-jk: Just kidding
 #include <Keyboard.h>
 
 void setup() {

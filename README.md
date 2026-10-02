@@ -21,16 +21,19 @@ Port: usually `/dev/ttyACM0`
 
 | Path | Role |
 |------|------|
-| `catalog.json` | Source of truth for the 20 fun payloads |
+| `catalog.json` | Source of truth (**37** payloads) |
 | `tools/generate_sketches.py` | Writes `sketches/<id>/<id>.ino` |
 | `tools/flash.sh` | Compile + upload one sketch |
-| `docs/TOP20.md` | Human table of payloads |
+| `docs/CATALOG.md` | Full payload table |
+| `docs/TOP20.md` | Same table (kept for old links) |
+| `docs/SOURCES.md` | Awesome/Hak5 adaptations + filter |
 | `docs/flash.md` | Setup on Arch/Omarchy |
 | `AWESOME.md` | Awesome lists and related repos |
 
 ## Docs
 
-- [TOP20 payloads](docs/TOP20.md)
+- [Full catalog](docs/CATALOG.md)
+- [Sources / adaptations](docs/SOURCES.md)
 - [Flash guide](docs/flash.md)
 - [Device notes](docs/enhet.md)
 - [Duckyscript ↔ Arduino](docs/ducky-vs-arduino.md)

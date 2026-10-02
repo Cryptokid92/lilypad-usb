@@ -3,6 +3,8 @@
 Curated links for LilyPad USB / ATmega32U4 HID / Ducky-style lab work.
 Own machines and authorized labs only.
 
+What we actually pulled in: [docs/SOURCES.md](docs/SOURCES.md).
+
 ## Awesome / curated lists
 
 | List | What |
@@ -14,7 +16,8 @@ Own machines and authorized labs only.
 
 | Repo | What |
 |------|------|
-| [hak5/usbrubberducky-payloads](https://github.com/hak5/usbrubberducky-payloads) | Official Hak5 USB Rubber Ducky payloads |
+| [hak5/usbrubberducky-payloads](https://github.com/hak5/usbrubberducky-payloads) | Official Hak5 USB Rubber Ducky payloads (`prank` / `general` used here) |
+| [FalsePhilosopher/badusb](https://github.com/FalsePhilosopher/badusb) | Community BadUSB scripts (`general` used here; steal/exfil skipped) |
 | [Hannah-Ashna/DuckyScripts](https://github.com/Hannah-Ashna/DuckyScripts) | Community Duckyscript compilation |
 
 ## Hardware / firmware (DIY ducky)

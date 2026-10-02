@@ -1,4 +1,5 @@
 // Generated from catalog.json
+// git-panic: Git status
 #include <Keyboard.h>
 
 void setup() {

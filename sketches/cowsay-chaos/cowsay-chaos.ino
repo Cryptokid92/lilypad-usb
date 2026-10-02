@@ -1,4 +1,5 @@
 // Generated from catalog.json
+// cowsay-chaos: Chaos cow
 #include <Keyboard.h>
 
 void setup() {

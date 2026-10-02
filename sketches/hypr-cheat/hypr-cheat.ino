@@ -1,4 +1,5 @@
 // Generated from catalog.json
+// hypr-cheat: Hypr cheat sheet
 #include <Keyboard.h>
 
 void setup() {

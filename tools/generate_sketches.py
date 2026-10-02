@@ -12,14 +12,17 @@ HAND_SKETCHES = frozenset({"demo-hello"})
 MARK = "// Generated from catalog.json"
 
 CATEGORIES = frozenset({"demo", "egen-maskin", "lab-omarchy"})
-ENTRY_FIELDS = frozenset(
+REQUIRED_FIELDS = frozenset(
     {"id", "title", "category", "vibe", "boot_delay_ms", "steps"}
 )
+OPTIONAL_FIELDS = frozenset({"source"})
+ENTRY_FIELDS = REQUIRED_FIELDS | OPTIONAL_FIELDS
 KEY_CODES = {
     "RETURN": "KEY_RETURN",
     "TAB": "KEY_TAB",
     "ESC": "KEY_ESC",
     "BACKSPACE": "KEY_BACKSPACE",
+    "CAPSLOCK": "KEY_CAPS_LOCK",
 }
 MOD_CODES = {
     "GUI": "KEY_LEFT_GUI",
@@ -34,6 +37,7 @@ STEP_FIELDS = {
     "key": frozenset({"op", "code"}),
     "mod": frozenset({"op", "keys"}),
     "release": frozenset({"op"}),
+    "mouse_move": frozenset({"op", "dx", "dy"}),
 }
 
 
@@ -99,6 +103,13 @@ def validate_step(step, entry_id, index):
             die(f"{where} has bad key {key!r}")
         if not any(key in MOD_CODES for key in keys):
             die(f"{where} needs a modifier")
+    elif op == "mouse_move":
+        for axis in ("dx", "dy"):
+            value = step[axis]
+            if isinstance(value, bool) or not isinstance(value, int):
+                die(f"{where} {axis} must be an integer")
+            if value < -100 or value > 100:
+                die(f"{where} {axis} must be -100 to 100")
 
 
 def require_gui_wait(steps, entry_id):
@@ -121,8 +132,13 @@ def validate(entries):
         die("catalog.json must be a non-empty array")
     seen = set()
     for entry in entries:
-        if not isinstance(entry, dict) or set(entry) != ENTRY_FIELDS:
-            die("each payload needs id, title, category, vibe, boot_delay_ms, steps")
+        if not isinstance(entry, dict):
+            die("each payload must be an object")
+        keys = set(entry)
+        if not REQUIRED_FIELDS.issubset(keys) or not keys.issubset(ENTRY_FIELDS):
+            die("each payload needs id, title, category, vibe, boot_delay_ms, steps (+ optional source)")
+        if "source" in entry:
+            printable_ascii(entry["source"], f"{entry.get('id', '?')} source", 120)
         kebab_id(entry["id"])
         if entry["id"] in seen:
             die(f"duplicate id {entry['id']}")
@@ -153,6 +169,8 @@ def render_step(step):
         return [f"  Keyboard.write({KEY_CODES[step['code']]});"]
     if op == "release":
         return ["  Keyboard.releaseAll();"]
+    if op == "mouse_move":
+        return [f"  Mouse.move({step['dx']}, {step['dy']});"]
     lines = []
     last = len(step["keys"]) - 1
     for index, key in enumerate(step["keys"]):
@@ -164,21 +182,39 @@ def render_step(step):
 
 
 def render_sketch(entry):
+    needs_mouse = any(step["op"] == "mouse_move" for step in entry["steps"])
     body = [
         MARK,
-        "#include <Keyboard.h>",
-        "",
-        "void setup() {",
-        f"  delay({entry['boot_delay_ms']});",
-        "  Keyboard.begin();",
-        "  delay(200);",
+        f"// {entry['id']}: {entry['title']}",
     ]
+    if entry.get("source"):
+        body.append(f"// Source: {entry['source']}")
+    body.append("#include <Keyboard.h>")
+    if needs_mouse:
+        body.append("#include <Mouse.h>")
+    body.extend(
+        [
+            "",
+            "void setup() {",
+            f"  delay({entry['boot_delay_ms']});",
+            "  Keyboard.begin();",
+        ]
+    )
+    if needs_mouse:
+        body.append("  Mouse.begin();")
+    body.append("  delay(200);")
     for step in entry["steps"]:
         body.extend(render_step(step))
     body.extend(
         [
             "  delay(100);",
             "  Keyboard.end();",
+        ]
+    )
+    if needs_mouse:
+        body.append("  Mouse.end();")
+    body.extend(
+        [
             "}",
             "",
             "void loop() {}",

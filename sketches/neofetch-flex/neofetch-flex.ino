@@ -1,4 +1,5 @@
 // Generated from catalog.json
+// neofetch-flex: Neofetch flex
 #include <Keyboard.h>
 
 void setup() {

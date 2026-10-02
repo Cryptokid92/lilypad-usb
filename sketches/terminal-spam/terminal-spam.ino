@@ -1,9 +1,10 @@
 // Generated from catalog.json
-// sandwich-sudo: Sudo sandwich
+// terminal-spam: Terminal spam
+// Source: inspired by Hak5 Continuos Print In Terminal / Windows-Spam-Terminals
 #include <Keyboard.h>
 
 void setup() {
-  delay(1700);
+  delay(1800);
   Keyboard.begin();
   delay(200);
   Keyboard.press(KEY_LEFT_GUI);
@@ -12,11 +13,9 @@ void setup() {
   delay(40);
   Keyboard.releaseAll();
   delay(1000);
-  Keyboard.println("echo sudo make me a sandwich");
-  delay(250);
-  Keyboard.println("echo make says there is no target named me");
-  delay(250);
-  Keyboard.println("echo okay");
+  Keyboard.println("echo QUACK");
+  Keyboard.println("echo QUACK AGAIN");
+  Keyboard.println("echo ok that is enough quacking");
   delay(100);
   Keyboard.end();
 }

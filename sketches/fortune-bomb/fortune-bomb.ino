@@ -1,4 +1,5 @@
 // Generated from catalog.json
+// fortune-bomb: Fortune bomb
 #include <Keyboard.h>
 
 void setup() {

@@ -1,4 +1,5 @@
 // Generated from catalog.json
+// disco-ascii: Disco letters
 #include <Keyboard.h>
 
 void setup() {

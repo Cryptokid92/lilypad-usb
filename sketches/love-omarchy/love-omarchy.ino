@@ -1,4 +1,5 @@
 // Generated from catalog.json
+// love-omarchy: Love letter
 #include <Keyboard.h>
 
 void setup() {

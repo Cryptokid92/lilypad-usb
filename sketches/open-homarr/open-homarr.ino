@@ -1,4 +1,5 @@
 // Generated from catalog.json
+// open-homarr: Open Homarr
 #include <Keyboard.h>
 
 void setup() {

@@ -1,4 +1,5 @@
 // Generated from catalog.json
+// grafana-night: Grafana night
 #include <Keyboard.h>
 
 void setup() {

@@ -1,4 +1,5 @@
 // Generated from catalog.json
+// coffee-break: Coffee break
 #include <Keyboard.h>
 
 void setup() {

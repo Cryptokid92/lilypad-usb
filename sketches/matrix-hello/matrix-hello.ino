@@ -1,4 +1,5 @@
 // Generated from catalog.json
+// matrix-hello: Matrix hello
 #include <Keyboard.h>
 
 void setup() {

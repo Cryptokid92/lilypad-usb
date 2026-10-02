@@ -1,4 +1,5 @@
 // Generated from catalog.json
+// keyboard-cat: Keyboard cat
 #include <Keyboard.h>
 
 void setup() {

@@ -6,11 +6,26 @@
     "vibe": "The terminal remembers it is a movie.",
     "boot_delay_ms": 2000,
     "steps": [
-      {"op": "println", "text": "WAKE UP"},
-      {"op": "println", "text": "the matrix has you"},
-      {"op": "println", "text": "phosphor green on black"},
-      {"op": "println", "text": "omarchy 4"},
-      {"op": "println", "text": "cryptokid was here"}
+      {
+        "op": "println",
+        "text": "WAKE UP"
+      },
+      {
+        "op": "println",
+        "text": "the matrix has you"
+      },
+      {
+        "op": "println",
+        "text": "phosphor green on black"
+      },
+      {
+        "op": "println",
+        "text": "omarchy 4"
+      },
+      {
+        "op": "println",
+        "text": "cryptokid was here"
+      }
     ]
   },
   {
@@ -20,11 +35,28 @@
     "vibe": "Super 1, then the process zoo.",
     "boot_delay_ms": 1800,
     "steps": [
-      {"op": "mod", "keys": ["GUI", "1"]},
-      {"op": "delay", "ms": 40},
-      {"op": "release"},
-      {"op": "delay", "ms": 1000},
-      {"op": "println", "text": "btop"}
+      {
+        "op": "mod",
+        "keys": [
+          "GUI",
+          "1"
+        ]
+      },
+      {
+        "op": "delay",
+        "ms": 40
+      },
+      {
+        "op": "release"
+      },
+      {
+        "op": "delay",
+        "ms": 1000
+      },
+      {
+        "op": "println",
+        "text": "btop"
+      }
     ]
   },
   {
@@ -34,15 +66,42 @@
     "vibe": "A cow with no cowsay package and no shame.",
     "boot_delay_ms": 2200,
     "steps": [
-      {"op": "println", "text": "        MOO"},
-      {"op": "println", "text": "      oo  oo"},
-      {"op": "println", "text": "    oo      oo"},
-      {"op": "println", "text": "   o   oo   o"},
-      {"op": "println", "text": "   o        o"},
-      {"op": "println", "text": "    oo    oo"},
-      {"op": "println", "text": "      oooo"},
-      {"op": "println", "text": "chaos cow has no package"},
-      {"op": "println", "text": "cryptokid pasture"}
+      {
+        "op": "println",
+        "text": "        MOO"
+      },
+      {
+        "op": "println",
+        "text": "      oo  oo"
+      },
+      {
+        "op": "println",
+        "text": "    oo      oo"
+      },
+      {
+        "op": "println",
+        "text": "   o   oo   o"
+      },
+      {
+        "op": "println",
+        "text": "   o        o"
+      },
+      {
+        "op": "println",
+        "text": "    oo    oo"
+      },
+      {
+        "op": "println",
+        "text": "      oooo"
+      },
+      {
+        "op": "println",
+        "text": "chaos cow has no package"
+      },
+      {
+        "op": "println",
+        "text": "cryptokid pasture"
+      }
     ]
   },
   {
@@ -52,11 +111,28 @@
     "vibe": "You know the song. The lab knows it too.",
     "boot_delay_ms": 2000,
     "steps": [
-      {"op": "mod", "keys": ["GUI", "1"]},
-      {"op": "delay", "ms": 40},
-      {"op": "release"},
-      {"op": "delay", "ms": 1100},
-      {"op": "println", "text": "xdg-open https://youtu.be/dQw4w9WgXcQ"}
+      {
+        "op": "mod",
+        "keys": [
+          "GUI",
+          "1"
+        ]
+      },
+      {
+        "op": "delay",
+        "ms": 40
+      },
+      {
+        "op": "release"
+      },
+      {
+        "op": "delay",
+        "ms": 1100
+      },
+      {
+        "op": "println",
+        "text": "xdg-open https://youtu.be/dQw4w9WgXcQ"
+      }
     ]
   },
   {
@@ -66,11 +142,28 @@
     "vibe": "Show the hardware, or admit uname is enough.",
     "boot_delay_ms": 1600,
     "steps": [
-      {"op": "mod", "keys": ["GUI", "1"]},
-      {"op": "delay", "ms": 40},
-      {"op": "release"},
-      {"op": "delay", "ms": 900},
-      {"op": "println", "text": "neofetch || fastfetch || uname -a"}
+      {
+        "op": "mod",
+        "keys": [
+          "GUI",
+          "1"
+        ]
+      },
+      {
+        "op": "delay",
+        "ms": 40
+      },
+      {
+        "op": "release"
+      },
+      {
+        "op": "delay",
+        "ms": 900
+      },
+      {
+        "op": "println",
+        "text": "neofetch || fastfetch || uname -a"
+      }
     ]
   },
   {
@@ -80,11 +173,28 @@
     "vibe": "Night mode for people who watch logs for fun.",
     "boot_delay_ms": 2100,
     "steps": [
-      {"op": "mod", "keys": ["GUI", "1"]},
-      {"op": "delay", "ms": 40},
-      {"op": "release"},
-      {"op": "delay", "ms": 1200},
-      {"op": "println", "text": "xdg-open http://192.168.50.155:3001/d/infra-night-mode"}
+      {
+        "op": "mod",
+        "keys": [
+          "GUI",
+          "1"
+        ]
+      },
+      {
+        "op": "delay",
+        "ms": 40
+      },
+      {
+        "op": "release"
+      },
+      {
+        "op": "delay",
+        "ms": 1200
+      },
+      {
+        "op": "println",
+        "text": "xdg-open http://192.168.50.155:3001/d/infra-night-mode"
+      }
     ]
   },
   {
@@ -94,13 +204,36 @@
     "vibe": "Central logs called. They want the punchline back.",
     "boot_delay_ms": 1900,
     "steps": [
-      {"op": "mod", "keys": ["GUI", "1"]},
-      {"op": "delay", "ms": 40},
-      {"op": "release"},
-      {"op": "delay", "ms": 800},
-      {"op": "println", "text": "echo the central log hub wants its jokes back"},
-      {"op": "delay", "ms": 300},
-      {"op": "println", "text": "curl -s localhost"}
+      {
+        "op": "mod",
+        "keys": [
+          "GUI",
+          "1"
+        ]
+      },
+      {
+        "op": "delay",
+        "ms": 40
+      },
+      {
+        "op": "release"
+      },
+      {
+        "op": "delay",
+        "ms": 800
+      },
+      {
+        "op": "println",
+        "text": "echo the central log hub wants its jokes back"
+      },
+      {
+        "op": "delay",
+        "ms": 300
+      },
+      {
+        "op": "println",
+        "text": "curl -s localhost"
+      }
     ]
   },
   {
@@ -110,15 +243,44 @@
     "vibe": "Make says no. Sudo says okay.",
     "boot_delay_ms": 1700,
     "steps": [
-      {"op": "mod", "keys": ["GUI", "1"]},
-      {"op": "delay", "ms": 40},
-      {"op": "release"},
-      {"op": "delay", "ms": 1000},
-      {"op": "println", "text": "echo sudo make me a sandwich"},
-      {"op": "delay", "ms": 250},
-      {"op": "println", "text": "echo make says there is no target named me"},
-      {"op": "delay", "ms": 250},
-      {"op": "println", "text": "echo okay"}
+      {
+        "op": "mod",
+        "keys": [
+          "GUI",
+          "1"
+        ]
+      },
+      {
+        "op": "delay",
+        "ms": 40
+      },
+      {
+        "op": "release"
+      },
+      {
+        "op": "delay",
+        "ms": 1000
+      },
+      {
+        "op": "println",
+        "text": "echo sudo make me a sandwich"
+      },
+      {
+        "op": "delay",
+        "ms": 250
+      },
+      {
+        "op": "println",
+        "text": "echo make says there is no target named me"
+      },
+      {
+        "op": "delay",
+        "ms": 250
+      },
+      {
+        "op": "println",
+        "text": "echo okay"
+      }
     ]
   },
   {
@@ -128,13 +290,36 @@
     "vibe": "Status first. Panic never.",
     "boot_delay_ms": 2000,
     "steps": [
-      {"op": "mod", "keys": ["GUI", "1"]},
-      {"op": "delay", "ms": 40},
-      {"op": "release"},
-      {"op": "delay", "ms": 1100},
-      {"op": "println", "text": "cd"},
-      {"op": "delay", "ms": 300},
-      {"op": "println", "text": "git status"}
+      {
+        "op": "mod",
+        "keys": [
+          "GUI",
+          "1"
+        ]
+      },
+      {
+        "op": "delay",
+        "ms": 40
+      },
+      {
+        "op": "release"
+      },
+      {
+        "op": "delay",
+        "ms": 1100
+      },
+      {
+        "op": "println",
+        "text": "cd"
+      },
+      {
+        "op": "delay",
+        "ms": 300
+      },
+      {
+        "op": "println",
+        "text": "git status"
+      }
     ]
   },
   {
@@ -144,15 +329,44 @@
     "vibe": "Two binds and a green reminder.",
     "boot_delay_ms": 2300,
     "steps": [
-      {"op": "mod", "keys": ["GUI", "1"]},
-      {"op": "delay", "ms": 40},
-      {"op": "release"},
-      {"op": "delay", "ms": 900},
-      {"op": "println", "text": "echo Super 1 is foot"},
-      {"op": "delay", "ms": 200},
-      {"op": "println", "text": "echo Super 3 is the browser"},
-      {"op": "delay", "ms": 200},
-      {"op": "println", "text": "echo green means you are home"}
+      {
+        "op": "mod",
+        "keys": [
+          "GUI",
+          "1"
+        ]
+      },
+      {
+        "op": "delay",
+        "ms": 40
+      },
+      {
+        "op": "release"
+      },
+      {
+        "op": "delay",
+        "ms": 900
+      },
+      {
+        "op": "println",
+        "text": "echo Super 1 is foot"
+      },
+      {
+        "op": "delay",
+        "ms": 200
+      },
+      {
+        "op": "println",
+        "text": "echo Super 3 is the browser"
+      },
+      {
+        "op": "delay",
+        "ms": 200
+      },
+      {
+        "op": "println",
+        "text": "echo green means you are home"
+      }
     ]
   },
   {
@@ -162,13 +376,34 @@
     "vibe": "Four fortunes, zero wisdom.",
     "boot_delay_ms": 1500,
     "steps": [
-      {"op": "println", "text": "the log is not the outage"},
-      {"op": "delay", "ms": 200},
-      {"op": "println", "text": "green text is not uptime"},
-      {"op": "delay", "ms": 200},
-      {"op": "println", "text": "btop is not a personality"},
-      {"op": "delay", "ms": 200},
-      {"op": "println", "text": "cryptokid will be right back"}
+      {
+        "op": "println",
+        "text": "the log is not the outage"
+      },
+      {
+        "op": "delay",
+        "ms": 200
+      },
+      {
+        "op": "println",
+        "text": "green text is not uptime"
+      },
+      {
+        "op": "delay",
+        "ms": 200
+      },
+      {
+        "op": "println",
+        "text": "btop is not a personality"
+      },
+      {
+        "op": "delay",
+        "ms": 200
+      },
+      {
+        "op": "println",
+        "text": "cryptokid will be right back"
+      }
     ]
   },
   {
@@ -178,17 +413,52 @@
     "vibe": "All the typing, none of the crime.",
     "boot_delay_ms": 2400,
     "steps": [
-      {"op": "mod", "keys": ["GUI", "1"]},
-      {"op": "delay", "ms": 40},
-      {"op": "release"},
-      {"op": "delay", "ms": 1000},
-      {"op": "println", "text": "echo ACCESSING MAINFRAME"},
-      {"op": "delay", "ms": 300},
-      {"op": "println", "text": "echo bypassing nothing this is your pc"},
-      {"op": "delay", "ms": 300},
-      {"op": "println", "text": "echo download complete of zero bytes"},
-      {"op": "delay", "ms": 300},
-      {"op": "println", "text": "echo hack complete have a snack"}
+      {
+        "op": "mod",
+        "keys": [
+          "GUI",
+          "1"
+        ]
+      },
+      {
+        "op": "delay",
+        "ms": 40
+      },
+      {
+        "op": "release"
+      },
+      {
+        "op": "delay",
+        "ms": 1000
+      },
+      {
+        "op": "println",
+        "text": "echo ACCESSING MAINFRAME"
+      },
+      {
+        "op": "delay",
+        "ms": 300
+      },
+      {
+        "op": "println",
+        "text": "echo bypassing nothing this is your pc"
+      },
+      {
+        "op": "delay",
+        "ms": 300
+      },
+      {
+        "op": "println",
+        "text": "echo download complete of zero bytes"
+      },
+      {
+        "op": "delay",
+        "ms": 300
+      },
+      {
+        "op": "println",
+        "text": "echo hack complete have a snack"
+      }
     ]
   },
   {
@@ -198,11 +468,28 @@
     "vibe": "The tile board, opened like a door.",
     "boot_delay_ms": 2000,
     "steps": [
-      {"op": "mod", "keys": ["GUI", "1"]},
-      {"op": "delay", "ms": 40},
-      {"op": "release"},
-      {"op": "delay", "ms": 1200},
-      {"op": "println", "text": "xdg-open http://homarr.tailcda20.ts.net"}
+      {
+        "op": "mod",
+        "keys": [
+          "GUI",
+          "1"
+        ]
+      },
+      {
+        "op": "delay",
+        "ms": 40
+      },
+      {
+        "op": "release"
+      },
+      {
+        "op": "delay",
+        "ms": 1200
+      },
+      {
+        "op": "println",
+        "text": "xdg-open http://homarr.tailcda20.ts.net"
+      }
     ]
   },
   {
@@ -212,11 +499,26 @@
     "vibe": "The floor is letters and the letters dance.",
     "boot_delay_ms": 1800,
     "steps": [
-      {"op": "println", "text": "DISCO"},
-      {"op": "println", "text": "o  o  o  o"},
-      {"op": "println", "text": "  PARTY TIME"},
-      {"op": "println", "text": "o  o  o  o"},
-      {"op": "println", "text": "cryptokid on the floor"}
+      {
+        "op": "println",
+        "text": "DISCO"
+      },
+      {
+        "op": "println",
+        "text": "o  o  o  o"
+      },
+      {
+        "op": "println",
+        "text": "  PARTY TIME"
+      },
+      {
+        "op": "println",
+        "text": "o  o  o  o"
+      },
+      {
+        "op": "println",
+        "text": "cryptokid on the floor"
+      }
     ]
   },
   {
@@ -226,11 +528,26 @@
     "vibe": "Nonsense, then the only honest word.",
     "boot_delay_ms": 1600,
     "steps": [
-      {"op": "println", "text": "meow meow tap tap"},
-      {"op": "delay", "ms": 200},
-      {"op": "println", "text": "meow"},
-      {"op": "delay", "ms": 200},
-      {"op": "println", "text": "purr"}
+      {
+        "op": "println",
+        "text": "meow meow tap tap"
+      },
+      {
+        "op": "delay",
+        "ms": 200
+      },
+      {
+        "op": "println",
+        "text": "meow"
+      },
+      {
+        "op": "delay",
+        "ms": 200
+      },
+      {
+        "op": "println",
+        "text": "purr"
+      }
     ]
   },
   {
@@ -240,12 +557,30 @@
     "vibe": "A cup drawn with the letter o.",
     "boot_delay_ms": 2500,
     "steps": [
-      {"op": "println", "text": "  oooo"},
-      {"op": "println", "text": " o    o"},
-      {"op": "println", "text": " o    o"},
-      {"op": "println", "text": "  oooo"},
-      {"op": "println", "text": "   oo"},
-      {"op": "println", "text": "break time"}
+      {
+        "op": "println",
+        "text": "  oooo"
+      },
+      {
+        "op": "println",
+        "text": " o    o"
+      },
+      {
+        "op": "println",
+        "text": " o    o"
+      },
+      {
+        "op": "println",
+        "text": "  oooo"
+      },
+      {
+        "op": "println",
+        "text": "   oo"
+      },
+      {
+        "op": "println",
+        "text": "break time"
+      }
     ]
   },
   {
@@ -255,17 +590,52 @@
     "vibe": "A short letter to black and phosphor green.",
     "boot_delay_ms": 1900,
     "steps": [
-      {"op": "mod", "keys": ["GUI", "1"]},
-      {"op": "delay", "ms": 40},
-      {"op": "release"},
-      {"op": "delay", "ms": 800},
-      {"op": "println", "text": "echo dear omarchy"},
-      {"op": "delay", "ms": 200},
-      {"op": "println", "text": "echo black background phosphor letters"},
-      {"op": "delay", "ms": 200},
-      {"op": "println", "text": "echo foot on super 1 feels like home"},
-      {"op": "delay", "ms": 200},
-      {"op": "println", "text": "echo love cryptokid"}
+      {
+        "op": "mod",
+        "keys": [
+          "GUI",
+          "1"
+        ]
+      },
+      {
+        "op": "delay",
+        "ms": 40
+      },
+      {
+        "op": "release"
+      },
+      {
+        "op": "delay",
+        "ms": 800
+      },
+      {
+        "op": "println",
+        "text": "echo dear omarchy"
+      },
+      {
+        "op": "delay",
+        "ms": 200
+      },
+      {
+        "op": "println",
+        "text": "echo black background phosphor letters"
+      },
+      {
+        "op": "delay",
+        "ms": 200
+      },
+      {
+        "op": "println",
+        "text": "echo foot on super 1 feels like home"
+      },
+      {
+        "op": "delay",
+        "ms": 200
+      },
+      {
+        "op": "println",
+        "text": "echo love cryptokid"
+      }
     ]
   },
   {
@@ -275,13 +645,34 @@
     "vibe": "Three, two, one, and then a nice day.",
     "boot_delay_ms": 2100,
     "steps": [
-      {"op": "println", "text": "3"},
-      {"op": "delay", "ms": 400},
-      {"op": "println", "text": "2"},
-      {"op": "delay", "ms": 400},
-      {"op": "println", "text": "1"},
-      {"op": "delay", "ms": 400},
-      {"op": "println", "text": "just kidding have a nice day"}
+      {
+        "op": "println",
+        "text": "3"
+      },
+      {
+        "op": "delay",
+        "ms": 400
+      },
+      {
+        "op": "println",
+        "text": "2"
+      },
+      {
+        "op": "delay",
+        "ms": 400
+      },
+      {
+        "op": "println",
+        "text": "1"
+      },
+      {
+        "op": "delay",
+        "ms": 400
+      },
+      {
+        "op": "println",
+        "text": "just kidding have a nice day"
+      }
     ]
   },
   {
@@ -291,17 +682,52 @@
     "vibe": "Guests napping, gate guarded, no secrets.",
     "boot_delay_ms": 1700,
     "steps": [
-      {"op": "mod", "keys": ["GUI", "1"]},
-      {"op": "delay", "ms": 40},
-      {"op": "release"},
-      {"op": "delay", "ms": 1000},
-      {"op": "println", "text": "echo proxmox guests are napping"},
-      {"op": "delay", "ms": 250},
-      {"op": "println", "text": "echo opnsense keeps the home gate"},
-      {"op": "delay", "ms": 250},
-      {"op": "println", "text": "echo homarr still has the tiles"},
-      {"op": "delay", "ms": 250},
-      {"op": "println", "text": "echo this sketch stores nothing sensitive"}
+      {
+        "op": "mod",
+        "keys": [
+          "GUI",
+          "1"
+        ]
+      },
+      {
+        "op": "delay",
+        "ms": 40
+      },
+      {
+        "op": "release"
+      },
+      {
+        "op": "delay",
+        "ms": 1000
+      },
+      {
+        "op": "println",
+        "text": "echo proxmox guests are napping"
+      },
+      {
+        "op": "delay",
+        "ms": 250
+      },
+      {
+        "op": "println",
+        "text": "echo opnsense keeps the home gate"
+      },
+      {
+        "op": "delay",
+        "ms": 250
+      },
+      {
+        "op": "println",
+        "text": "echo homarr still has the tiles"
+      },
+      {
+        "op": "delay",
+        "ms": 250
+      },
+      {
+        "op": "println",
+        "text": "echo this sketch stores nothing sensitive"
+      }
     ]
   },
   {
@@ -311,12 +737,595 @@
     "vibe": "A small bird made of o, still loud.",
     "boot_delay_ms": 2000,
     "steps": [
-      {"op": "println", "text": "PARTY PARROT"},
-      {"op": "println", "text": "  o o"},
-      {"op": "println", "text": " o   o"},
-      {"op": "println", "text": "  ooo   dance"},
-      {"op": "println", "text": "  o o"},
-      {"op": "println", "text": "cryptokid encore"}
+      {
+        "op": "println",
+        "text": "PARTY PARROT"
+      },
+      {
+        "op": "println",
+        "text": "  o o"
+      },
+      {
+        "op": "println",
+        "text": " o   o"
+      },
+      {
+        "op": "println",
+        "text": "  ooo   dance"
+      },
+      {
+        "op": "println",
+        "text": "  o o"
+      },
+      {
+        "op": "println",
+        "text": "cryptokid encore"
+      }
+    ]
+  },
+  {
+    "id": "matrix-wake-up",
+    "title": "Matrix wake up",
+    "category": "demo",
+    "vibe": "Neo open your eyes, but make it phosphor green.",
+    "source": "inspired by Hak5 The_Matrix-Wake_Up / Digital_Rain",
+    "boot_delay_ms": 2000,
+    "steps": [
+      {
+        "op": "println",
+        "text": "Wake up, Neo..."
+      },
+      {
+        "op": "delay",
+        "ms": 400
+      },
+      {
+        "op": "println",
+        "text": "The Matrix has you..."
+      },
+      {
+        "op": "delay",
+        "ms": 400
+      },
+      {
+        "op": "println",
+        "text": "Follow the white rabbit."
+      },
+      {
+        "op": "println",
+        "text": "knock knock"
+      },
+      {
+        "op": "println",
+        "text": "# omarchy matrix mode"
+      }
+    ]
+  },
+  {
+    "id": "rickroll-ascii",
+    "title": "ASCII rickroll",
+    "category": "demo",
+    "vibe": "Never gonna give you up, as text art.",
+    "source": "inspired by Hak5 RickRoll_ASCII / TerminalRickRoll",
+    "boot_delay_ms": 1800,
+    "steps": [
+      {
+        "op": "println",
+        "text": "Never gonna give you up"
+      },
+      {
+        "op": "println",
+        "text": "Never gonna let you down"
+      },
+      {
+        "op": "println",
+        "text": "Never gonna run around and desert you"
+      },
+      {
+        "op": "println",
+        "text": "(ascii edition, own screen only)"
+      }
+    ]
+  },
+  {
+    "id": "hacker-typer",
+    "title": "Hacker typer",
+    "category": "demo",
+    "vibe": "Movie hacking. Zero packets stolen.",
+    "source": "inspired by Hak5 Hacker_Typer",
+    "boot_delay_ms": 1600,
+    "steps": [
+      {
+        "op": "println",
+        "text": "ACCESSING MAINFRAME..."
+      },
+      {
+        "op": "delay",
+        "ms": 300
+      },
+      {
+        "op": "println",
+        "text": "DECRYPTING... 12%"
+      },
+      {
+        "op": "println",
+        "text": "DECRYPTING... 67%"
+      },
+      {
+        "op": "println",
+        "text": "DECRYPTING... 100%"
+      },
+      {
+        "op": "println",
+        "text": "FOUND: one (1) rubber duck"
+      },
+      {
+        "op": "println",
+        "text": "MISSION: make coffee"
+      }
+    ]
+  },
+  {
+    "id": "mouse-jiggler",
+    "title": "Mouse jiggler",
+    "category": "egen-maskin",
+    "vibe": "Tiny mouse dance so the screen stays awake.",
+    "source": "inspired by Flipper Mouse jiggler / Hak5 The_Mouse_Moves_By_Itself / FP jiggler.txt",
+    "boot_delay_ms": 1500,
+    "steps": [
+      {
+        "op": "mouse_move",
+        "dx": 8,
+        "dy": 0
+      },
+      {
+        "op": "delay",
+        "ms": 200
+      },
+      {
+        "op": "mouse_move",
+        "dx": -8,
+        "dy": 0
+      },
+      {
+        "op": "delay",
+        "ms": 200
+      },
+      {
+        "op": "mouse_move",
+        "dx": 0,
+        "dy": 8
+      },
+      {
+        "op": "delay",
+        "ms": 200
+      },
+      {
+        "op": "mouse_move",
+        "dx": 0,
+        "dy": -8
+      },
+      {
+        "op": "mouse_move",
+        "dx": 5,
+        "dy": 5
+      },
+      {
+        "op": "mouse_move",
+        "dx": -5,
+        "dy": -5
+      }
+    ]
+  },
+  {
+    "id": "caps-troll",
+    "title": "Caps lock troll",
+    "category": "demo",
+    "vibe": "CAPS goes on. Future you can turn it off.",
+    "source": "inspired by Hak5 cApS-Troll",
+    "boot_delay_ms": 1500,
+    "steps": [
+      {
+        "op": "key",
+        "code": "CAPSLOCK"
+      },
+      {
+        "op": "delay",
+        "ms": 200
+      },
+      {
+        "op": "println",
+        "text": "WHY IS EVERYTHING LOUD"
+      },
+      {
+        "op": "delay",
+        "ms": 400
+      },
+      {
+        "op": "key",
+        "code": "CAPSLOCK"
+      },
+      {
+        "op": "println",
+        "text": "ok caps is back to normal"
+      }
+    ]
+  },
+  {
+    "id": "alien-message",
+    "title": "Alien message",
+    "category": "demo",
+    "vibe": "Your PC received a deeply unserious transmission.",
+    "source": "inspired by Hak5 Alien Message From Computer",
+    "boot_delay_ms": 2000,
+    "steps": [
+      {
+        "op": "println",
+        "text": ">>> INCOMING TRANSMISSION <<<"
+      },
+      {
+        "op": "println",
+        "text": "GREETINGS EARTHLING"
+      },
+      {
+        "op": "println",
+        "text": "BRING SNACKS TO SECTOR 7G"
+      },
+      {
+        "op": "println",
+        "text": "END OF MESSAGE"
+      }
+    ]
+  },
+  {
+    "id": "banner-joke",
+    "title": "Banner joke",
+    "category": "demo",
+    "vibe": "A giant useless banner for a tiny joke.",
+    "source": "inspired by Hak5 Full-ScreenBannerJoke",
+    "boot_delay_ms": 1800,
+    "steps": [
+      {
+        "op": "println",
+        "text": "##############################"
+      },
+      {
+        "op": "println",
+        "text": "#   IMPORTANT SYSTEM NOTE   #"
+      },
+      {
+        "op": "println",
+        "text": "#   you are doing great     #"
+      },
+      {
+        "op": "println",
+        "text": "##############################"
+      }
+    ]
+  },
+  {
+    "id": "terminal-spam",
+    "title": "Terminal spam",
+    "category": "lab-omarchy",
+    "vibe": "A few loud lines, then it stops being annoying.",
+    "source": "inspired by Hak5 Continuos Print In Terminal / Windows-Spam-Terminals",
+    "boot_delay_ms": 1800,
+    "steps": [
+      {
+        "op": "mod",
+        "keys": [
+          "GUI",
+          "1"
+        ]
+      },
+      {
+        "op": "delay",
+        "ms": 40
+      },
+      {
+        "op": "release"
+      },
+      {
+        "op": "delay",
+        "ms": 1000
+      },
+      {
+        "op": "println",
+        "text": "echo QUACK"
+      },
+      {
+        "op": "println",
+        "text": "echo QUACK AGAIN"
+      },
+      {
+        "op": "println",
+        "text": "echo ok that is enough quacking"
+      }
+    ]
+  },
+  {
+    "id": "star-lilypad-repo",
+    "title": "Open own repo",
+    "category": "lab-omarchy",
+    "vibe": "xdg-open the lilypad-usb GitHub page.",
+    "source": "inspired by FalsePhilosopher general/GitHub-Star.txt",
+    "boot_delay_ms": 1800,
+    "steps": [
+      {
+        "op": "mod",
+        "keys": [
+          "GUI",
+          "1"
+        ]
+      },
+      {
+        "op": "delay",
+        "ms": 40
+      },
+      {
+        "op": "release"
+      },
+      {
+        "op": "delay",
+        "ms": 1000
+      },
+      {
+        "op": "println",
+        "text": "xdg-open https://github.com/Cryptokid92/lilypad-usb"
+      }
+    ]
+  },
+  {
+    "id": "quack-roll",
+    "title": "Quack rolled",
+    "category": "demo",
+    "vibe": "Duck energy without the crime.",
+    "source": "inspired by Hak5 Quack_Rolled / YouHaveBeenQuacked2.0",
+    "boot_delay_ms": 1700,
+    "steps": [
+      {
+        "op": "println",
+        "text": "  __"
+      },
+      {
+        "op": "println",
+        "text": "<(o )___"
+      },
+      {
+        "op": "println",
+        "text": " ( ._> /"
+      },
+      {
+        "op": "println",
+        "text": "  `---'  QUACK"
+      },
+      {
+        "op": "println",
+        "text": "you have been quacked (nicely)"
+      }
+    ]
+  },
+  {
+    "id": "usb-scream",
+    "title": "USB scream",
+    "category": "demo",
+    "vibe": "AAAAA but as polite ASCII.",
+    "source": "inspired by Hak5 USBScream",
+    "boot_delay_ms": 1500,
+    "steps": [
+      {
+        "op": "println",
+        "text": "A"
+      },
+      {
+        "op": "println",
+        "text": "AA"
+      },
+      {
+        "op": "println",
+        "text": "AAA"
+      },
+      {
+        "op": "println",
+        "text": "AAAA"
+      },
+      {
+        "op": "println",
+        "text": "AAAAA"
+      },
+      {
+        "op": "println",
+        "text": "(internal scream complete)"
+      }
+    ]
+  },
+  {
+    "id": "mr-robot-exit",
+    "title": "Mr Robot exit",
+    "category": "demo",
+    "vibe": "Dramatic exit. Still just a USB stick.",
+    "source": "inspired by Hak5 mr-robot_eXit",
+    "boot_delay_ms": 2000,
+    "steps": [
+      {
+        "op": "println",
+        "text": "Hello, friend."
+      },
+      {
+        "op": "delay",
+        "ms": 500
+      },
+      {
+        "op": "println",
+        "text": "Control is an illusion."
+      },
+      {
+        "op": "println",
+        "text": "eXit"
+      },
+      {
+        "op": "println",
+        "text": "# please enjoy your evening"
+      }
+    ]
+  },
+  {
+    "id": "catch-me",
+    "title": "Try to catch me",
+    "category": "demo",
+    "vibe": "The mouse flees in a tiny square.",
+    "source": "inspired by Hak5 Try_To_Catch_Me",
+    "boot_delay_ms": 1500,
+    "steps": [
+      {
+        "op": "mouse_move",
+        "dx": 40,
+        "dy": 0
+      },
+      {
+        "op": "delay",
+        "ms": 150
+      },
+      {
+        "op": "mouse_move",
+        "dx": 0,
+        "dy": 40
+      },
+      {
+        "op": "delay",
+        "ms": 150
+      },
+      {
+        "op": "mouse_move",
+        "dx": -40,
+        "dy": 0
+      },
+      {
+        "op": "delay",
+        "ms": 150
+      },
+      {
+        "op": "mouse_move",
+        "dx": 0,
+        "dy": -40
+      },
+      {
+        "op": "mouse_move",
+        "dx": 20,
+        "dy": -10
+      }
+    ]
+  },
+  {
+    "id": "piano-ascii",
+    "title": "Piano ascii",
+    "category": "demo",
+    "vibe": "Keyboard as a terrible piano.",
+    "source": "inspired by Hak5 Piano_Player",
+    "boot_delay_ms": 1800,
+    "steps": [
+      {
+        "op": "println",
+        "text": "C D E F G A B C"
+      },
+      {
+        "op": "println",
+        "text": "| | | | | | | |"
+      },
+      {
+        "op": "println",
+        "text": "do re mi fa so la ti do"
+      },
+      {
+        "op": "println",
+        "text": "(imaginary concert)"
+      }
+    ]
+  },
+  {
+    "id": "volume-nudge",
+    "title": "Volume nudge",
+    "category": "lab-omarchy",
+    "vibe": "Ask PipeWire for a polite volume bump.",
+    "source": "inspired by Hak5 MaxVolumeRickroll_Windows / SoundChangeDuck",
+    "boot_delay_ms": 1800,
+    "steps": [
+      {
+        "op": "mod",
+        "keys": [
+          "GUI",
+          "1"
+        ]
+      },
+      {
+        "op": "delay",
+        "ms": 40
+      },
+      {
+        "op": "release"
+      },
+      {
+        "op": "delay",
+        "ms": 1000
+      },
+      {
+        "op": "println",
+        "text": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+ || pactl set-sink-volume @DEFAULT_SINK@ +5%"
+      }
+    ]
+  },
+  {
+    "id": "pomodoro-ping",
+    "title": "Pomodoro ping",
+    "category": "egen-maskin",
+    "vibe": "Twenty five minutes of focus energy.",
+    "source": "inspired by Flipper Flipp Pomodoro (awesome-flipperzero)",
+    "boot_delay_ms": 1700,
+    "steps": [
+      {
+        "op": "println",
+        "text": "POMODORO START"
+      },
+      {
+        "op": "println",
+        "text": "25 minutes. Phone down."
+      },
+      {
+        "op": "println",
+        "text": "Then coffee. Then glory."
+      }
+    ]
+  },
+  {
+    "id": "yt-tripwire-lite",
+    "title": "YouTube open",
+    "category": "lab-omarchy",
+    "vibe": "Open YouTube. You pick the video.",
+    "source": "inspired by Hak5 / Jakoby YT-Tripwire (harmless open only)",
+    "boot_delay_ms": 1800,
+    "steps": [
+      {
+        "op": "mod",
+        "keys": [
+          "GUI",
+          "1"
+        ]
+      },
+      {
+        "op": "delay",
+        "ms": 40
+      },
+      {
+        "op": "release"
+      },
+      {
+        "op": "delay",
+        "ms": 1000
+      },
+      {
+        "op": "println",
+        "text": "xdg-open https://www.youtube.com/"
+      }
     ]
   }
 ]
