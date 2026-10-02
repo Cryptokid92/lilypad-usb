@@ -1,0 +1,322 @@
+[
+  {
+    "id": "matrix-hello",
+    "title": "Matrix hello",
+    "category": "demo",
+    "vibe": "The terminal remembers it is a movie.",
+    "boot_delay_ms": 2000,
+    "steps": [
+      {"op": "println", "text": "WAKE UP"},
+      {"op": "println", "text": "the matrix has you"},
+      {"op": "println", "text": "phosphor green on black"},
+      {"op": "println", "text": "omarchy 4"},
+      {"op": "println", "text": "cryptokid was here"}
+    ]
+  },
+  {
+    "id": "foot-btop",
+    "title": "Foot then btop",
+    "category": "lab-omarchy",
+    "vibe": "Super 1, then the process zoo.",
+    "boot_delay_ms": 1800,
+    "steps": [
+      {"op": "mod", "keys": ["GUI", "1"]},
+      {"op": "delay", "ms": 40},
+      {"op": "release"},
+      {"op": "delay", "ms": 1000},
+      {"op": "println", "text": "btop"}
+    ]
+  },
+  {
+    "id": "cowsay-chaos",
+    "title": "Chaos cow",
+    "category": "demo",
+    "vibe": "A cow with no cowsay package and no shame.",
+    "boot_delay_ms": 2200,
+    "steps": [
+      {"op": "println", "text": "        MOO"},
+      {"op": "println", "text": "      oo  oo"},
+      {"op": "println", "text": "    oo      oo"},
+      {"op": "println", "text": "   o   oo   o"},
+      {"op": "println", "text": "   o        o"},
+      {"op": "println", "text": "    oo    oo"},
+      {"op": "println", "text": "      oooo"},
+      {"op": "println", "text": "chaos cow has no package"},
+      {"op": "println", "text": "cryptokid pasture"}
+    ]
+  },
+  {
+    "id": "rickroll-browser",
+    "title": "Rickroll",
+    "category": "lab-omarchy",
+    "vibe": "You know the song. The lab knows it too.",
+    "boot_delay_ms": 2000,
+    "steps": [
+      {"op": "mod", "keys": ["GUI", "1"]},
+      {"op": "delay", "ms": 40},
+      {"op": "release"},
+      {"op": "delay", "ms": 1100},
+      {"op": "println", "text": "xdg-open https://youtu.be/dQw4w9WgXcQ"}
+    ]
+  },
+  {
+    "id": "neofetch-flex",
+    "title": "Neofetch flex",
+    "category": "lab-omarchy",
+    "vibe": "Show the hardware, or admit uname is enough.",
+    "boot_delay_ms": 1600,
+    "steps": [
+      {"op": "mod", "keys": ["GUI", "1"]},
+      {"op": "delay", "ms": 40},
+      {"op": "release"},
+      {"op": "delay", "ms": 900},
+      {"op": "println", "text": "neofetch || fastfetch || uname -a"}
+    ]
+  },
+  {
+    "id": "grafana-night",
+    "title": "Grafana night",
+    "category": "lab-omarchy",
+    "vibe": "Night mode for people who watch logs for fun.",
+    "boot_delay_ms": 2100,
+    "steps": [
+      {"op": "mod", "keys": ["GUI", "1"]},
+      {"op": "delay", "ms": 40},
+      {"op": "release"},
+      {"op": "delay", "ms": 1200},
+      {"op": "println", "text": "xdg-open http://192.168.50.155:3001/d/infra-night-mode"}
+    ]
+  },
+  {
+    "id": "infra-logs-flex",
+    "title": "Infra log joke",
+    "category": "lab-omarchy",
+    "vibe": "Central logs called. They want the punchline back.",
+    "boot_delay_ms": 1900,
+    "steps": [
+      {"op": "mod", "keys": ["GUI", "1"]},
+      {"op": "delay", "ms": 40},
+      {"op": "release"},
+      {"op": "delay", "ms": 800},
+      {"op": "println", "text": "echo the central log hub wants its jokes back"},
+      {"op": "delay", "ms": 300},
+      {"op": "println", "text": "curl -s localhost"}
+    ]
+  },
+  {
+    "id": "sandwich-sudo",
+    "title": "Sudo sandwich",
+    "category": "egen-maskin",
+    "vibe": "Make says no. Sudo says okay.",
+    "boot_delay_ms": 1700,
+    "steps": [
+      {"op": "mod", "keys": ["GUI", "1"]},
+      {"op": "delay", "ms": 40},
+      {"op": "release"},
+      {"op": "delay", "ms": 1000},
+      {"op": "println", "text": "echo sudo make me a sandwich"},
+      {"op": "delay", "ms": 250},
+      {"op": "println", "text": "echo make says there is no target named me"},
+      {"op": "delay", "ms": 250},
+      {"op": "println", "text": "echo okay"}
+    ]
+  },
+  {
+    "id": "git-panic",
+    "title": "Git status",
+    "category": "egen-maskin",
+    "vibe": "Status first. Panic never.",
+    "boot_delay_ms": 2000,
+    "steps": [
+      {"op": "mod", "keys": ["GUI", "1"]},
+      {"op": "delay", "ms": 40},
+      {"op": "release"},
+      {"op": "delay", "ms": 1100},
+      {"op": "println", "text": "cd"},
+      {"op": "delay", "ms": 300},
+      {"op": "println", "text": "git status"}
+    ]
+  },
+  {
+    "id": "hypr-cheat",
+    "title": "Hypr cheat sheet",
+    "category": "lab-omarchy",
+    "vibe": "Two binds and a green reminder.",
+    "boot_delay_ms": 2300,
+    "steps": [
+      {"op": "mod", "keys": ["GUI", "1"]},
+      {"op": "delay", "ms": 40},
+      {"op": "release"},
+      {"op": "delay", "ms": 900},
+      {"op": "println", "text": "echo Super 1 is foot"},
+      {"op": "delay", "ms": 200},
+      {"op": "println", "text": "echo Super 3 is the browser"},
+      {"op": "delay", "ms": 200},
+      {"op": "println", "text": "echo green means you are home"}
+    ]
+  },
+  {
+    "id": "fortune-bomb",
+    "title": "Fortune bomb",
+    "category": "demo",
+    "vibe": "Four fortunes, zero wisdom.",
+    "boot_delay_ms": 1500,
+    "steps": [
+      {"op": "println", "text": "the log is not the outage"},
+      {"op": "delay", "ms": 200},
+      {"op": "println", "text": "green text is not uptime"},
+      {"op": "delay", "ms": 200},
+      {"op": "println", "text": "btop is not a personality"},
+      {"op": "delay", "ms": 200},
+      {"op": "println", "text": "cryptokid will be right back"}
+    ]
+  },
+  {
+    "id": "hacker-movie",
+    "title": "Hacker movie",
+    "category": "egen-maskin",
+    "vibe": "All the typing, none of the crime.",
+    "boot_delay_ms": 2400,
+    "steps": [
+      {"op": "mod", "keys": ["GUI", "1"]},
+      {"op": "delay", "ms": 40},
+      {"op": "release"},
+      {"op": "delay", "ms": 1000},
+      {"op": "println", "text": "echo ACCESSING MAINFRAME"},
+      {"op": "delay", "ms": 300},
+      {"op": "println", "text": "echo bypassing nothing this is your pc"},
+      {"op": "delay", "ms": 300},
+      {"op": "println", "text": "echo download complete of zero bytes"},
+      {"op": "delay", "ms": 300},
+      {"op": "println", "text": "echo hack complete have a snack"}
+    ]
+  },
+  {
+    "id": "open-homarr",
+    "title": "Open Homarr",
+    "category": "lab-omarchy",
+    "vibe": "The tile board, opened like a door.",
+    "boot_delay_ms": 2000,
+    "steps": [
+      {"op": "mod", "keys": ["GUI", "1"]},
+      {"op": "delay", "ms": 40},
+      {"op": "release"},
+      {"op": "delay", "ms": 1200},
+      {"op": "println", "text": "xdg-open http://homarr.tailcda20.ts.net"}
+    ]
+  },
+  {
+    "id": "disco-ascii",
+    "title": "Disco letters",
+    "category": "demo",
+    "vibe": "The floor is letters and the letters dance.",
+    "boot_delay_ms": 1800,
+    "steps": [
+      {"op": "println", "text": "DISCO"},
+      {"op": "println", "text": "o  o  o  o"},
+      {"op": "println", "text": "  PARTY TIME"},
+      {"op": "println", "text": "o  o  o  o"},
+      {"op": "println", "text": "cryptokid on the floor"}
+    ]
+  },
+  {
+    "id": "keyboard-cat",
+    "title": "Keyboard cat",
+    "category": "demo",
+    "vibe": "Nonsense, then the only honest word.",
+    "boot_delay_ms": 1600,
+    "steps": [
+      {"op": "println", "text": "meow meow tap tap"},
+      {"op": "delay", "ms": 200},
+      {"op": "println", "text": "meow"},
+      {"op": "delay", "ms": 200},
+      {"op": "println", "text": "purr"}
+    ]
+  },
+  {
+    "id": "coffee-break",
+    "title": "Coffee break",
+    "category": "demo",
+    "vibe": "A cup drawn with the letter o.",
+    "boot_delay_ms": 2500,
+    "steps": [
+      {"op": "println", "text": "  oooo"},
+      {"op": "println", "text": " o    o"},
+      {"op": "println", "text": " o    o"},
+      {"op": "println", "text": "  oooo"},
+      {"op": "println", "text": "   oo"},
+      {"op": "println", "text": "break time"}
+    ]
+  },
+  {
+    "id": "love-omarchy",
+    "title": "Love letter",
+    "category": "egen-maskin",
+    "vibe": "A short letter to black and phosphor green.",
+    "boot_delay_ms": 1900,
+    "steps": [
+      {"op": "mod", "keys": ["GUI", "1"]},
+      {"op": "delay", "ms": 40},
+      {"op": "release"},
+      {"op": "delay", "ms": 800},
+      {"op": "println", "text": "echo dear omarchy"},
+      {"op": "delay", "ms": 200},
+      {"op": "println", "text": "echo black background phosphor letters"},
+      {"op": "delay", "ms": 200},
+      {"op": "println", "text": "echo foot on super 1 feels like home"},
+      {"op": "delay", "ms": 200},
+      {"op": "println", "text": "echo love cryptokid"}
+    ]
+  },
+  {
+    "id": "countdown-jk",
+    "title": "Just kidding",
+    "category": "demo",
+    "vibe": "Three, two, one, and then a nice day.",
+    "boot_delay_ms": 2100,
+    "steps": [
+      {"op": "println", "text": "3"},
+      {"op": "delay", "ms": 400},
+      {"op": "println", "text": "2"},
+      {"op": "delay", "ms": 400},
+      {"op": "println", "text": "1"},
+      {"op": "delay", "ms": 400},
+      {"op": "println", "text": "just kidding have a nice day"}
+    ]
+  },
+  {
+    "id": "pve-flex",
+    "title": "Home lab flex",
+    "category": "lab-omarchy",
+    "vibe": "Guests napping, gate guarded, no secrets.",
+    "boot_delay_ms": 1700,
+    "steps": [
+      {"op": "mod", "keys": ["GUI", "1"]},
+      {"op": "delay", "ms": 40},
+      {"op": "release"},
+      {"op": "delay", "ms": 1000},
+      {"op": "println", "text": "echo proxmox guests are napping"},
+      {"op": "delay", "ms": 250},
+      {"op": "println", "text": "echo opnsense keeps the home gate"},
+      {"op": "delay", "ms": 250},
+      {"op": "println", "text": "echo homarr still has the tiles"},
+      {"op": "delay", "ms": 250},
+      {"op": "println", "text": "echo this sketch stores nothing sensitive"}
+    ]
+  },
+  {
+    "id": "party-parrot",
+    "title": "Party parrot",
+    "category": "demo",
+    "vibe": "A small bird made of o, still loud.",
+    "boot_delay_ms": 2000,
+    "steps": [
+      {"op": "println", "text": "PARTY PARROT"},
+      {"op": "println", "text": "  o o"},
+      {"op": "println", "text": " o   o"},
+      {"op": "println", "text": "  ooo   dance"},
+      {"op": "println", "text": "  o o"},
+      {"op": "println", "text": "cryptokid encore"}
+    ]
+  }
+]

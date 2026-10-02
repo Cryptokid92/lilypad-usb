@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.Arduino*
+*.hex
+*.elf
+.DS_Store
+.env
+.env.*
+*.raw.json
+private/
